@@ -1,0 +1,33 @@
+.container {
+    width: 70vw;
+    border: 1px solid black;
+    height: 70vh;;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    border: 1px solid black;
+    /* grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr); */
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.active {
+    background: blue;
+    color: white;
+}
+
+.buttonWrapper {
+    margin: 24px;
+}
